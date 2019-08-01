@@ -1,0 +1,12 @@
+@import '../../../styles/utils';
+
+.blog-list-container {
+  .blog-top-bar {
+    width: 800px;
+    display: flex;
+
+    & > div {
+      flex: 0.25;
+    }
+  }
+}

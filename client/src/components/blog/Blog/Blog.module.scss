@@ -1,0 +1,10 @@
+@import '../../../styles/utils';
+
+.blog {
+  width: 800px;
+  display: flex;
+
+  & > div {
+    flex: 0.25;
+  }
+}
